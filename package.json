@@ -1,17 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Node.js backend for tracking visitor count",
+  "main": "server.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["visitor count", "backend", "express"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.1",
-    "fs": "^0.0.1-security"
+    "express": "^4.21.1"
   }
 }
